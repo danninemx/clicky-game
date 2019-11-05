@@ -1,4 +1,4 @@
-# [Clicky Game](https://danninemx.github.io/clicky-game/)
+# [Superhero Clicky](https://danninemx.github.io/clicky-game/)
 
 ## Table of Contents
 
@@ -12,7 +12,9 @@
 
 ## Overview <a name="overview"></a>
 
-This is a superhero-themed memory game created with ReactJS. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+This is a superhero-themed memory game that runs on the front-end.
+
+It was created with React to demonstrate component-based UI development, component state management, and user event handling.
 
 Styling inspiration by a _Rick and Morty_-themed [Clicky Game](https://clicky-game.netlify.com/).
 
