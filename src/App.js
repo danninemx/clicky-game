@@ -27,30 +27,47 @@ class App extends Component {
     clicked: [],
   };
 
+  // Call this to handle click
   handleClick = id => {
+    // console.log(`Event target is of ${typeof id} type and is ${id}`);
+
+    // If clicked hero was not previously clicked, increment point and add hero to array
     if (this.state.clicked.indexOf(id) === -1) {
-      this.handleIncrement();
       this.setState({ clicked: this.state.clicked.concat(id) });
-    } else {
+      this.handleIncrement();
+
+    } else { // Otherwise reset point
       this.handleReset();
     }
-  };
+  }; // End of handleClick
 
+
+  // Call this to handle score addition
   handleIncrement = () => {
+    // Declare new score and induce render
     const newScore = this.state.currentScore + 1;
     this.setState({
       currentScore: newScore,
       rightWrong: ""
     });
+
+    // If new score matches/exceeds top score, update the latter
     if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore });
     }
-    else if (newScore === 12) {
-      this.setState({ rightWrong: "You win!" });
+
+    // If max score is reached, reset score and congratulate user
+    if (newScore === 12) {
+      this.handleReset();
+      this.setState({
+        rightWrong: "Victory!"
+      });
     }
     this.handleShuffle();
-  };
+  }; // End of handleIncrement
 
+
+  // Call this to reset score
   handleReset = () => {
     this.setState({
       currentScore: 0,
@@ -59,12 +76,15 @@ class App extends Component {
       clicked: []
     });
     this.handleShuffle();
-  };
+  }; // End of handleReset
 
+
+  // Call this to shuffle cards
   handleShuffle = () => {
     let shuffledFriends = shuffleFriends(friends);
     this.setState({ friends: shuffledFriends });
   };
+
 
   render() {
     return (
