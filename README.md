@@ -1,3 +1,5 @@
+# <a href="https://danninemx.github.io/clicky-game/">Superhero Clicky</a> <img src="https://github.com/danninemx/project-issue-manager/blob/master/client/src/images/issue-logo-horizontal.png/" alt="Issue-O-Matic logo" align="right" height="100"> <a name="top"></a>
+
 # [Superhero Clicky](https://danninemx.github.io/clicky-game/)
 
 ## Table of Contents
@@ -16,13 +18,13 @@ This is a superhero-themed memory game that runs on the front-end.
 
 It was created with React to demonstrate component-based UI development, component state management, and user event handling.
 
-Styling inspiration by a _Rick and Morty_-themed [Clicky Game](https://clicky-game.netlify.com/).
-
 ![clicky-game-screenshot](./public/clicky-game.png)
+
+<p align='right'><a href='#top'><sup>[Back to Top]</sup></a></p>
 
 ## Instructions <a name="instructions"></a>
 
-#### 1. Player visits the [deployed page](https://danninemx.github.io/clicky-game/).
+#### 1. Visit the [deployed page](https://danninemx.github.io/clicky-game/).
 
 Alternatively, user can install the app locally via GitHub, Node and NPM:
 
@@ -32,7 +34,7 @@ npm i
 npm start
 ```
 
-#### 2. Player is prompted to select heroes to defend earth.
+#### 2. Select heroes to defend earth.
 
 Rules of the game:
 
@@ -42,13 +44,19 @@ Rules of the game:
 
 #### 3. Aim to gain 12 points for victory! Earth 1 : Aliens 0.
 
+<p align='right'><a href='#top'><sup>[Back to Top]</sup></a></p>
+
 ---
 
 ## Technologies <a name="technologies"></a>
 
-- [Node.js](https://nodejs.org/en/)
-- [NPM: GitHub Pages](https://www.npmjs.com/package/gh-pages)
-- [React](https://github.com/facebookincubator/create-react-app)
+| Technology/Dependency Used                                     | Purpose                        |
+| -------------------------------------------------------------- | ------------------------------ |
+| [Node.js](https://nodejs.org/en/)                              | JavaScript runtime environment |
+| [NPM: GitHub Pages](https://www.npmjs.com/package/gh-pages)    | Deployment                     |
+| [React](https://github.com/facebookincubator/create-react-app) | Frontend                       |
+
+<p align='right'><a href='#top'><sup>[Back to Top]</sup></a></p>
 
 ---
 
@@ -57,8 +65,12 @@ Rules of the game:
 - Additional themes and difficulty settings
 - Hall of fame for high scorers
 
+<p align='right'><a href='#top'><sup>[Back to Top]</sup></a></p>
+
 ---
 
 ## Developer <a name="team"></a>
 
 - [Danny Kim](https://github.com/danninemx)
+
+<p align='right'><a href='#top'><sup>[Back to Top]</sup></a></p>
