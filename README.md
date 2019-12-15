@@ -1,6 +1,4 @@
-# <a href="https://danninemx.github.io/clicky-game/">Superhero Clicky</a> <img src="https://github.com/danninemx/project-issue-manager/blob/master/client/src/images/issue-logo-horizontal.png/" alt="Issue-O-Matic logo" align="right" height="100"> <a name="top"></a>
-
-# [Superhero Clicky](https://danninemx.github.io/clicky-game/)
+# <a href="https://danninemx.github.io/clicky-game/">Superhero Clicky</a> <img src="https://github.com/danninemx/clicky-game/blob/master/public/clicky-logo.png/" alt="superhero clicky logo" align="right" height="100"> <a name="top"></a>
 
 ## Table of Contents
 
